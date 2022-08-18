@@ -34,4 +34,26 @@ But somethimes we want to scape some characthers like this ones: \* \` \>
 
 ==test1==
 \~\~test2\~\~
+**failed tests**
 
+---
+---
+# tier 1 header
+##### tier 5 header
+**bold**  or  __bold__
+*italic*  or  _italic_
+
+[link to markdown guide](https://www.markdownguide.org/basic-syntax/)
+
+> This is a quote. Quotes are indented and a different colour.
+
+show small bits of code with backticks: `print("hello world")` 
+
+<!-- Markdown basics							!-->
+	https://www.markdownguide.org/basic-syntax/
+<!-- Cheat Sheet								 !-->
+	https://www.markdownguide.org/cheat-sheet/
+<!-- About Markdown, Get Started				 !-->
+	https://www.markdownguide.org/getting-started/
+<!-- More										 !-->
+	https://www.markdownguide.org/
