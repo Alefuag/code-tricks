@@ -12,6 +12,8 @@ print(f)
 
 And this in only a bit of `code`
 
+---
+
 # Header
 
 - I dont know
@@ -19,5 +21,13 @@ And this in only a bit of `code`
 - make lists
     - like this one
 
+* Or maybe
+* this one
+
+1. Even
+2. an ordered one
+3. like this
+
+The *quick* brown fox, jumped **over** the ***lazy*** [dog](https://en.wikipedia.org/wiki/Dog).
 
 
