@@ -30,4 +30,8 @@ And this in only a bit of `code`
 
 The *quick* brown fox, jumped **over** the ***lazy*** [dog](https://en.wikipedia.org/wiki/Dog).
 
+But somethimes we want to scape some characthers like this ones: \* \` \>
+
+==test1==
+\~test2\~
 
