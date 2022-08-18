@@ -38,6 +38,8 @@ But somethimes we want to scape some characthers like this ones: \* \` \>
 
 ---
 ---
+### Grepper Answer 1:
+
 # tier 1 header
 ##### tier 5 header
 **bold**  or  __bold__
@@ -48,6 +50,9 @@ But somethimes we want to scape some characthers like this ones: \* \` \>
 > This is a quote. Quotes are indented and a different colour.
 
 show small bits of code with backticks: `print("hello world")` 
+
+---
+### Grepper Answer 2:
 
 <!-- Markdown basics							!-->
 	https://www.markdownguide.org/basic-syntax/
