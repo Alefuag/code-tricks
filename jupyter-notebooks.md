@@ -1,4 +1,4 @@
-// in markdows file for now, pending to migrate to jupyter notebook file
+// Tricks in markdown file for now, pending to change to jupyter notebook file
 
 
 ## 2 modes: command and edit mode
