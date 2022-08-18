@@ -33,5 +33,5 @@ The *quick* brown fox, jumped **over** the ***lazy*** [dog](https://en.wikipedia
 But somethimes we want to scape some characthers like this ones: \* \` \>
 
 ==test1==
-\~test2\~
+\~\~test2\~\~
 
