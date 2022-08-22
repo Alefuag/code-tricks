@@ -6,6 +6,10 @@ Basics: `cd, ls, rm, etc`
 `uname -a` system info (minimal) 
 `neofetch` system info
 
+
+`Ctrl + r`: reverse-i-search
+
+
 ### Docker
 docker run
 docker start
