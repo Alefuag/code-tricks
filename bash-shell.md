@@ -2,7 +2,7 @@
 
 
 ### Basic Commands
-Basics: `cd, ls, rm, etc`
+Basics: `cd, ls, rm`, etc
 
 `sw_vers` : show system info
 
@@ -12,13 +12,15 @@ Basics: `cd, ls, rm, etc`
 
 `neofetch` system info
 
+
 ### Drives
 `mount [-t type] //server/path/to/folder /path/to/local/folder`
+
 
 ### Utilities
 
 `Ctrl + r`: reverse-i-search
-
+`grep` : <pre><br>another command</br></pre>
 
 
 ### Docker
