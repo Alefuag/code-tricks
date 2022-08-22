@@ -6,6 +6,8 @@
 	- [AWS](https://aws.amazon.com/training/)
 
 
+### Pending
+- VPN L2TP
 
 
 
