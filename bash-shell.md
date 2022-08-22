@@ -18,13 +18,16 @@ Basics: `cd, ls, rm`, etc
 
 `du -h --max-depth=1` : show all folder size in the current directory
 
+
 ### Git
-- `git reset --hard origin/master` : fix
+- `git reset --hard origin/master` : discard local changes and sync with head of repo
 
 ### Utilities
 
 `Ctrl + r`: reverse-i-search
-`grep` : <pre><br>another command</br></pre>
+
+`grep` : `another command | grep 'word to search'
+
 `ln [options] origin linkname` create a link (`-s` creates a symlink
 
 
