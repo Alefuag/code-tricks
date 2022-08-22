@@ -1,7 +1,6 @@
 
 ### Basic Commands
-Basics: `cd, ls, rm, etc`
-
+Basics: `cd, ls, rm, etc`\
 `sw_vers` : show system info
 
 `where / which / type` look for path locations (executable files)
