@@ -15,6 +15,6 @@ Basics: `cd, ls, rm, etc`
 
 
 ### Docker
-docker run
+docker run\
 docker start
 
