@@ -7,3 +7,9 @@ print(ctypes.cast(id(a), ctypes.py_object).value)
 
 ## Learn module and package importing (including __init__.py)
 
+''' pip
+## Check available versions for a package ##
+pip index versions package_name
+
+'''
+
