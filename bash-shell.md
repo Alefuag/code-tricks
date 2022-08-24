@@ -16,7 +16,7 @@ Basics: `cd, ls, rm`, etc
 ### Drives
 `mount [-t type] //server/path/to/folder /path/to/local/folder`
 
-`du -h --max-depth=1` : show all folder size in the current directory
+`du -h --max-depth=1` : show all files and folder size in the current directory
 
 
 ### Git
