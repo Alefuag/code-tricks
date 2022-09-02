@@ -12,6 +12,7 @@ Basics: `cd, ls, rm`, etc
 
 `neofetch` system info
 
+`landscape-sysinfo` drive and memory usage
 
 ### Drives
 `mount [-t type] //server/path/to/folder /path/to/local/folder`
