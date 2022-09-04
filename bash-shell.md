@@ -24,6 +24,7 @@ Basics: `cd, ls, rm`, etc
 - `git reset --hard origin/master` : discard local changes and sync with head of repo
 
 ### Utilities
+`watch [options] [command]` : check a command output at intervals
 
 `Ctrl + r`: reverse-i-search
 
