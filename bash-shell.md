@@ -37,3 +37,6 @@ Basics: `cd, ls, rm`, etc
 docker run\
 docker start
 
+### mpv
+`winget install mpv`
+
