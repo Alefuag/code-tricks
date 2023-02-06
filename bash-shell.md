@@ -22,6 +22,8 @@ Basics: `cd, ls, rm`, etc
 
 ### Git
 - `git reset --hard origin/master` : discard local changes and sync with head of repo
+- `git rev-parse --abbrev-ref HEAD` : get current branch name
+
 
 ### Utilities
 `watch [options] [command]` : check a command output at intervals
