@@ -32,8 +32,10 @@ Basics: `cd, ls, rm`, etc
 
 `grep` : `another command | grep 'word to search'
 
-`ln [options] origin linkname` create a link (`-s` creates a symlink
+`ln [options] origin linkname` create a link (`-s` creates a symlink)
 
+`alias cdl=" cd '$@' ; ls "`
+`cdl / cls / cdls` choose whatever you want
 
 ### Docker
 docker run\
