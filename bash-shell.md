@@ -35,6 +35,8 @@ Basics: `cd, ls, rm`, etc
 `ln [options] origin linkname` create a link (`-s` creates a symlink)
 
 `alias cdl=" cd '$@' ; ls "`
+or
+`alias cdl='f(){ cd "$@"; ls ;  unset -f f; }; f'`
 
 `cdl / cls / cdls` choose whatever you want
 
