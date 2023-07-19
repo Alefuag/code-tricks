@@ -34,6 +34,8 @@ Basics: `cd, ls, rm`, etc
 
 `ln [options] origin linkname` create a link (`-s` creates a symlink)
 
+`tree -L 2` : show a tree-like structure of current. Set depth level with `-L`
+
 `alias cdl=" cd '$@' ; ls "`
 or
 `alias cdl='f(){ cd "$@"; ls ;  unset -f f; }; f'`
