@@ -1,5 +1,10 @@
 
 
+### TODO
+History Expansion
+--> echo !!
+--> echo !-2
+...
 
 ### Basic Commands
 Basics: `cd, ls, rm`, etc
@@ -48,4 +53,5 @@ docker start
 
 ### mpv
 `winget install mpv`
+
 
