@@ -48,7 +48,13 @@ or
 `cdl / cls / cdls` choose whatever you want
 
 ### Docker
-docker run\
+
+`docker run `
+-it to attach terminal
+
+`docker exec `
+-it
+
 docker start
 
 ### mpv
