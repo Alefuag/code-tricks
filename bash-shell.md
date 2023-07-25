@@ -49,11 +49,11 @@ or
 
 ### Docker
 
-`docker run `
--it to attach terminal
+`docker run [OPTIONS] IMAGE[:TAG] [COMMAND]`
+-d to start in detached mode | -it to attach terminal | --name name
 
-`docker exec `
--it
+`docker exec [OPTIONS] CONTAINER COMMAND`
+-it to attach to terminal
 
 docker start
 
