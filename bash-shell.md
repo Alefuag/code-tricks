@@ -57,6 +57,10 @@ or
 
 docker start
 
+### Conda
+
+`conda config --set auto_activate_base false` disable base env activation
+
 ### mpv
 `winget install mpv`
 
