@@ -10,6 +10,9 @@
 
 ### Pending
 - VPN L2TP
+- Theme: Catppuccin
+- Awesoma Repository
+
 
 
 

@@ -1,10 +1,12 @@
 
 
 ### TODO
-History Expansion
---> echo !!
---> echo !-2
+- History Expansion  
+    --> echo !!  
+    --> echo !-2  
 ...
+- NvChad
+
 
 ### Basic Commands
 Basics: `cd, ls, rm`, etc
