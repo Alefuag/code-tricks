@@ -13,9 +13,15 @@ Adding "#%%" to a line creates a jupyter cell
 
 
 
+
 ### pip
 * Check available versions for a package
 `pip index versions package_name`
+
+### useful functions
+
+`pandas.crosstab()` : Compute a simple cross tabulation of two (or more) factors.
+
 
 
 ```python
