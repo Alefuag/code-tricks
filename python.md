@@ -22,6 +22,11 @@ Adding "#%%" to a line creates a jupyter cell
 
 `pandas.crosstab()` : Compute a simple cross tabulation of two (or more) factors.
 
+
+<details>
+<summary>Dictionaries Upgraded</summary>
+
+
 ```python
 class Map(dict):
     """
@@ -83,8 +88,12 @@ class dotdict(dict):
     __getattr__ = dict.get
     __setattr__ = dict.__setitem__
     __delattr__ = dict.__delitem__
-
 ```
+
+`pip install dotmap`bash
+
+</details>
+
 
 ### Libraries
 - DotMap (dictionary with dot accesor: `dict['attr'] == dict.attr`) -> pip install dotmap
