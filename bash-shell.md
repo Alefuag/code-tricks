@@ -32,6 +32,29 @@ Basics: `cd, ls, rm`, etc
 - `git rev-parse --abbrev-ref HEAD` : get current branch name
 - `git config --global credential.helper store` : set up git to store credentials
 
+### Shell control
+- `if [ -f /etc/passwd ] ; then echo "File exists" ; fi`
+- `if [ -f /etc/passwd ] ; then echo "File exists" ; else echo "File does not exist" ; fi`
+- `if [ -f /etc/passwd ] ; then echo "File exists" ; elif [ -f /etc/shadow ] ; then echo "File exists" ; else echo "File does not exist" ; fi`
+
+- `for i in {1..5} ; do echo $i ; done`
+- `for i in $(seq 1 5) ; do echo $i ; done`
+
+- `while [ true ] ; do echo "Hello" ; done`
+- `while [ true ] ; do echo "Hello" ; sleep 1 ; done`
+
+### Shell meta characters
+- `&` : run in background
+- `!` : history expansion
+- `~` : home directory
+- `~+` : current directory
+- `~-` : previous directory
+
+
+### Shell meta control
+cat outfile.txt | grep -e "match1" -e "match2"
+cat outfile.txt | wc -l
+
 
 ### Utilities
 `watch [options] [command]` : check a command output at intervals
