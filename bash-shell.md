@@ -7,6 +7,11 @@
 ...
 - NvChad
 
+### WSL2
+
+Add (or not) Windows paths to wsl path
+`[interop]`
+`appendWindowsPath = false`
 
 ### Basic Commands
 Basics: `cd, ls, rm`, etc
