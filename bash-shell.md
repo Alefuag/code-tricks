@@ -32,8 +32,12 @@ Basics: `cd, ls, rm`, etc
 - `git rev-parse --abbrev-ref HEAD` : get current branch name
 - `git config --global credential.helper store` : set up git to store credentials
 
+### Formatting
+- `export PS1="$(tput setaf 1)\u:$(tput setaf 4)\w$(tput sgr0) -> "` : set up prompt. username: red, path: blue
+
+
+
 ### Shell control
-- `if [ -f /etc/passwd ] ; then echo "File exists" ; fi`
 - `if [ -f /etc/passwd ] ; then echo "File exists" ; else echo "File does not exist" ; fi`
 - `if [ -f /etc/passwd ] ; then echo "File exists" ; elif [ -f /etc/shadow ] ; then echo "File exists" ; else echo "File does not exist" ; fi`
 
