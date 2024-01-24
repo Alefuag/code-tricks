@@ -43,6 +43,13 @@ Basics: `cd, ls, rm`, etc
 
 
 
+### Other Commands
+`nnn` : file manager
+
+`atuin` : shell history
+
+
+
 ### Drives
 `mount [-t type] //server/path/to/folder /path/to/local/folder`
 
@@ -56,6 +63,7 @@ Basics: `cd, ls, rm`, etc
 
 ### Formatting
 - `export PS1="$(tput setaf 1)\u:$(tput setaf 4)\w$(tput sgr0) -> "` : set up prompt. username: red, path: blue
+
 
 
 ### Shell control
