@@ -26,6 +26,14 @@ Basics: `cd, ls, rm`, etc
 
 `landscape-sysinfo` drive and memory usage
 
+
+### Other Commands
+`nnn` : file manager
+
+`atuin` : shell history
+
+
+
 ### Drives
 `mount [-t type] //server/path/to/folder /path/to/local/folder`
 
