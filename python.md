@@ -12,6 +12,15 @@ Adding "#%%" to a line creates a jupyter cell
 [IPython VS Code Tutorial](https://code.visualstudio.com/docs/python/jupyter-support-py)
 
 
+<details><summary>Jupyter</summary>
+Store magic
+
+- `%store my_var`
+- `%store -r` # retrieve vars
+- `look for more`
+
+
+</details>
 
 
 ### pip
