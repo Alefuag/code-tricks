@@ -48,6 +48,7 @@ Basics: `cd, ls, rm`, etc
 
 `atuin` : shell history
 
+`bc` : basic calculator
 
 
 ### Drives
