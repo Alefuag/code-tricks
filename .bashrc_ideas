@@ -1,7 +1,9 @@
 
 alias bat=batcat
-alias z=eza
-alias zl=eza -l
+# alias z=eza
+alias el=eza -l
+# alias el="ls -Ggoh"
+alias ela="el -a"
 
 # comment to use default prompt
 export PS1="$(tput setaf 1)\u:$(tput setaf 6)\w $(tput setaf 3)-> $(tput sgr0)"
@@ -16,6 +18,4 @@ eval "$(thefuck --alias)"
 eval $(zoxide init bash)
 
 # substitute to eza
-alias el="ls -Ggoh"
-alias ela="el -a"
 
