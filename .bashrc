@@ -8,5 +8,3 @@ export PATH=$PATH:/home/alefuag/.local/bin
 
 eval "$(thefuck --alias)"
 eval $(zoxide init bash)
-
-

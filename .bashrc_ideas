@@ -10,8 +10,12 @@ export PS1="$(tput setaf 1)\u:$(tput setaf 6)\w $(tput setaf 3)-> $(tput sgr0)"
 
 export BROWSER=/mnt/c/Windows/explorer.exe
 export PATH=$PATH:/home/alefuag/.local/bin
+# export PATH=$PATH:~/scripts
 
 eval "$(thefuck --alias)"
 eval $(zoxide init bash)
 
+# substitute to eza
+alias el="ls -Ggoh"
+alias ela="el -a"
 
