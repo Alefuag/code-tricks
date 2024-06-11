@@ -57,11 +57,6 @@ Basics: `cd, ls, rm`, etc
 `du -h --max-depth=1` : show all files and folder size in the current directory
 
 
-### Git
-- `git reset --hard origin/master` : discard local changes and sync with head of repo
-- `git rev-parse --abbrev-ref HEAD` : get current branch name
-- `git config --global credential.helper store` : set up git to store credentials
-
 ### Formatting
 - `export PS1="$(tput setaf 1)\u:$(tput setaf 4)\w$(tput sgr0) -> "` : set up prompt. username: red, path: blue
 
