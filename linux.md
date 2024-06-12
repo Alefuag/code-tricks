@@ -10,4 +10,11 @@ enabled = true
 root = /
 ```
 
+**Add (or not) Windows paths to wsl path**
+```ini
+[interop]
+appendWindowsPath = false
+```
+
+
 
