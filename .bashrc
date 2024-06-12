@@ -1,7 +1,7 @@
 
 alias bat=batcat
-alias z=eza
-alias zl=eza -l
+# alias el=eza
+alias el="ls -Ggoh"
 
 export BROWSER=/mnt/c/Windows/explorer.exe
 export PATH=$PATH:/home/alefuag/.local/bin
