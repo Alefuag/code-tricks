@@ -21,5 +21,8 @@ export PATH=$PATH:/home/alefuag/.local/bin
 eval "$(thefuck --alias)"
 eval $(zoxide init bash)
 
-# substitute to eza
+
+# timestamp
+alias timestamp="date +'%Y-%m-%d %H:%M:%S'" # v1
+alias timestamp="date +'%Y-%m-%d_%H:%M:%S'" # v2, no whitespace
 
