@@ -1,5 +1,5 @@
 
-In any `github.com` URL you can change the extension `.com` to `.dev` to acces a VS Code like UI via github
+In any `github.com` URL you can change the extension `.com` to `.dev` to acces a VS Code like UI via github OR press the key `.`
 
 ### Education
 - [Awesome](https://github.com/sindresorhus/awesome)

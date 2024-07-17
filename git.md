@@ -6,3 +6,8 @@
 - `git config --global credential.helper store` : set up git to store credentials
 
 - `git -C custom_dir command`: execute git command taking `custom_dir` as project root
+
+---
+
+- `git worktree`
+- git aliases
