@@ -31,6 +31,9 @@ alias ela="el -a"
 alias timestamp="date +'%Y-%m-%d %H:%M:%S'" # v1
 alias timestamp="date +'%Y-%m-%d_%H:%M:%S'" # v2, no whitespace
 
+# WSL: copy to Windows clipboard
+alias clip=/c/Windows/System32/clip.exe # points to clip executable 
+
 ###################################################################################
 
 ### Exports
