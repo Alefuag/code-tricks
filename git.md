@@ -11,3 +11,5 @@
 
 - `git worktree`
 - git aliases
+- `git fetch -p && for branch in $(git branch -vv | grep ': gone]' | awk '{print $1}'); do git branch -D $branch; done` : delete local branches that are deleted on remote
+
