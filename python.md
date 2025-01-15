@@ -1,16 +1,18 @@
 
-## Retrieve an object from its memory addres
+# Python
+
+
+## Snippets
+
+<details><summary>Retrieve an object from its memory addres</summary>
+
 ```python
 import ctypes
 a = "hello world"
 print(ctypes.cast(id(a), ctypes.py_object).value)
 ```
 
-### Only in VS Code
-Adding "#%%" to a line creates a jupyter cell
-
-[IPython VS Code Tutorial](https://code.visualstudio.com/docs/python/jupyter-support-py)
-
+</details>
 
 <details><summary>Jupyter</summary>
 Store magic
@@ -19,18 +21,25 @@ Store magic
 - `%store -r` # retrieve vars
 - `look for more`
 
+Only in VS Code - Adding "#%%" to a line creates a jupyter cell
+[IPython VS Code Tutorial](https://code.visualstudio.com/docs/python/jupyter-support-py)
 
 </details>
 
+<details><summary>pip</summary>
 
-### pip
 * Check available versions for a package
 `pip index versions package_name`
+
+</details>
+
+<details><summary>Pandas</summary>
 
 ### useful functions
 
 `pandas.crosstab()` : Compute a simple cross tabulation of two (or more) factors.
 
+</details>
 
 <details>
 <summary>Dictionaries Upgraded</summary>
@@ -71,26 +80,25 @@ class Map(dict):
         del self.__dict__[key]
 ```
 
-
-### Usage examples:
+### Usage examples
 
 `m = Map({'first_name': 'Eduardo'}, last_name='Pool', age=24, sports=['Soccer'])`
-Add new key
-`m.new_key = 'Hello world!'`
-Or
-`m['new_key'] = 'Hello world!'`
-`print m.new_key`
-`print m['new_key']`
-# Update values
-m.new_key = 'Yay!'
-# Or
-m['new_key'] = 'Yay!'
-# Delete key
-del m.new_key
-# Or
-del m['new_key']
+
+### Add new key
+
+`m.new_key = 'Hello world!'` | `m['new_key'] = 'Hello world!'`
+
+### Update values
+
+`m.new_key = 'Yay!'` or `m['new_key'] = 'Yay!'`
+
+### Delete key
+
+`del m.new_key` or `del m['new_key']`
 
 
+
+### DotDict Class
 ```python
 class dotdict(dict):
     """dot.notation access to dictionary attributes"""
@@ -99,7 +107,7 @@ class dotdict(dict):
     __delattr__ = dict.__delitem__
 ```
 
-`pip install dotmap`bash
+`pip install dotmap`
 
 </details>
 
@@ -107,7 +115,5 @@ class dotdict(dict):
 ### Libraries
 - DotMap (dictionary with dot accesor: `dict['attr'] == dict.attr`) -> pip install dotmap
 - IceCream: Never use print() to debug again
-
-
-### To Do
-- Learn module and package importing (including __init__.py)
+- Pydantic: Data validation and settings management using python type annotations
+- OmegaConf: Configuration management with python type annotations
